@@ -28,16 +28,22 @@
   border: none;
   font-size: 18px;
 }
+
 .login-form input:not([type="submit"]) {
-  color: rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transition: border-color 1s ease-in-out;
 }
 
 .login-form input[type="submit"] {
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .login-form a {
   margin-top: 20px;
   text-align: center;
+}
+
+.login-form input:focus {
+  border-color: rgba(0, 0, 0, 0.7);
 }

@@ -18,3 +18,71 @@
   margin-top: 120px;
   text-align: center;
 }
+
+.open-chat_header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 18px;
+  color: var(--gray--color);
+}
+
+.open-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.open-post_title {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+.open-post_hashtag {
+  margin-bottom: 5px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.2);
+  font-weight: 600;
+}
+.open-post_members {
+  display: flex;
+  align-items: center;
+}
+
+.open-post_members img {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  margin-right: 5px;
+}
+
+.open-post_members .divider {
+  width: 1px;
+  height: 14px;
+  margin: 0px 5px;
+  background-color: var(--gray--color);
+}
+
+.open-post-members_status {
+  color: #ffb0e0;
+}
+
+.open-post_album {
+  display: flex;
+  position: relative;
+}
+
+.open-post_album img {
+  width: 130px;
+  height: 130px;
+  border-radius: 20px;
+}
+.open-post_heartcount {
+  background-color: pink;
+  color: white;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  height: 10px;
+  padding: 10px;
+  position: absolute;
+  right: 8px;
+}
