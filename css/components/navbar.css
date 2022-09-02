@@ -1,0 +1,36 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.nav_list {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fafafa;
+  padding: 20px;
+  border-top: var(--main--border);
+}
+.nav_link {
+  position: relative;
+}
+
+.nav_notification {
+  position: absolute;
+  left: 20px;
+  bottom: 15px;
+}
+.nav_link span {
+  background-color: tomato;
+  border-radius: 100%;
+  width: 23px;
+  height: 23px;
+  font-size: 14px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav_btn {
+  margin: 0px 40px;
+}

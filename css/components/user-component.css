@@ -1,0 +1,62 @@
+.user-component {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+.user-component_column {
+  display: flex;
+  align-items: center;
+  padding: 10px 0px;
+}
+
+.user-component-column_avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 40%;
+}
+.user-component-column_avatar-xl {
+  width: 80px;
+  height: 80px;
+  border-radius: 40%;
+}
+
+.user-component-column_avatar-sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 40%;
+}
+
+.user-component-column-text_title {
+  margin-left: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.user-component-column-text_subtitle {
+  margin-left: 15px;
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 16px;
+}
+.user-component_column:last-child {
+  color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+}
+
+.user-component-column_time {
+  margin-bottom: 8px;
+}
+.user-component-column_msgcount {
+  background-color: tomato;
+  border-radius: 100%;
+  width: 23px;
+  height: 23px;
+  font-size: 14px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+}

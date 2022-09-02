@@ -1,0 +1,15 @@
+@import "components/status-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/navbar.css";
+@import "components/icon-row.css";
+
+@import "reset.css";
+@import "login.css";
+@import "friends.css";
+@import "variable.css";
+@import "find.css";
+
+body {
+  height: 1000vh;
+}
