@@ -60,3 +60,11 @@
   align-items: center;
   margin-left: 15px;
 }
+
+.user-component-column_text i{
+  color: white;
+  background-color: red;
+  border-radius: 50%;
+  border: 1px solid red;
+  font-weight: 600;
+}

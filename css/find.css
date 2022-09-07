@@ -86,3 +86,24 @@
   position: absolute;
   right: 8px;
 }
+
+@keyframes heartbounce{
+  0%{
+    transform: none;
+    color: white;
+  }
+  50%{
+    transform: scale(5);
+    color: tomato;
+  }
+  100%{
+    transform: none;
+    color: white;
+  }
+
+}
+
+.open-post_heartcount .fa-heart:hover{
+  animation: heartbounce 2s linear infinite;
+
+}

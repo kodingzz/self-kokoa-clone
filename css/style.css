@@ -9,6 +9,8 @@
 @import "friends.css";
 @import "variable.css";
 @import "find.css";
+@import "more.css";
+
 
 body {
   height: 1000vh;
